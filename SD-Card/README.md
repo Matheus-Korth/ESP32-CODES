@@ -50,21 +50,21 @@ __Bibliotéca criada para utilização SD Card - ESP32__
 </table>
 
 # Funções
-_`sdcard_init()`_
+__`sdcard_init()`__
 ```
  * @brief Inicia e faz a montagem do SD Card
  * @return ESP_OK no êxito.
 ```
-`sdcard_list();`
+__`sdcard_list();`__
 ```
  * @brief Lista todos os arquivos do SD Card
  * @return Arquivos encontrados.
 ```
-`sdcard_write();`
+__`sdcard_write();`__
 ```
  * @brief Escreve em um arquivo.
 ```
-`sdcard_read();`
+__`sdcard_read();`__
 ```
  * @brief Exibe oque tem dentro de um arquivo.
 ```
