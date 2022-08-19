@@ -1,5 +1,5 @@
 # SD CARD
-__Bibliotéca para utilização SD Card - ESP32__
+__Bibliotéca criada para utilização SD Card - ESP32__
 
 
 # Componentes e ligações
@@ -49,7 +49,7 @@ __Bibliotéca para utilização SD Card - ESP32__
 </tbody>
 </table>
 
-# Componentes e ligações
+# Funções
 _`sdcard_init()`_
 ```
  * @brief Inicia e faz a montagem do SD Card
