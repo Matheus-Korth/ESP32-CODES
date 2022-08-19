@@ -16,7 +16,7 @@ static const char *TAG = "[SD-CARD] --> ";
  * @brief Inicia e faz a montagem do SD Card
  * @return ESP_OK no êxito.
 */
-esp_err_t sdcard_init(void);
+esp_err_t sdcard_init();
 
 /**
  * @brief Lista todos os arquivos do SD Card

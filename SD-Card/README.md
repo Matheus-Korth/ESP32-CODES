@@ -1,32 +1,27 @@
-# _Sample project_
-
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+# SD CARD
+__Bibliotéca para utilização SD Card - ESP32__
 
 
-
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
-
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
+_`sdcard_init()`_
 ```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
+ * @brief Inicia e faz a montagem do SD Card
+ * @return ESP_OK no êxito.
 ```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+`sdcard_list();`
+```
+ * @brief Lista todos os arquivos do SD Card
+ * @return Arquivos encontrados.
+```
+`sdcard_write();`
+```
+ * @brief Escreve em um arquivo.
+```
+`sdcard_read();`
+```
+ * @brief Exibe oque tem dentro de um arquivo.
+```
+`sdcard_format();`
+```
+ * @brief Formata todos os arquivos do SD Card
+ * @return Arquivos que foram apagados.
+```

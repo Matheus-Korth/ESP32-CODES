@@ -10,7 +10,7 @@
  * @brief Inicia e faz a montagem do SD Card
  * @return ESP_OK no êxito.
 */
-esp_err_t sdcard_init(void)
+esp_err_t sdcard_init()
 {
     esp_err_t ret;
 
