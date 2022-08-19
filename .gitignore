@@ -1,0 +1,10 @@
+
+SD-Card/sdkconfig
+SD-Card/build
+SD-Card/.vscode
+SD-Card/.devcontainer
+SD-Card/main/CMakeLists.txt
+SD-Card/main/component.mk
+SD-Card/main/main.c
+SD-Card/CMakeLists.txt
+SD-Card/Makefile
