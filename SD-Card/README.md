@@ -68,7 +68,7 @@ _`sdcard_init()`_
 ```
  * @brief Exibe oque tem dentro de um arquivo.
 ```
-`sdcard_format();`
+__`sdcard_format();`__
 ```
  * @brief Formata todos os arquivos do SD Card
  * @return Arquivos que foram apagados.
