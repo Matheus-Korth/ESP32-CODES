@@ -10,8 +10,8 @@ __Bibliotéca para utilização SD Card - ESP32__
     <td colspan="1" align="center"><img src="https://cdn.awsli.com.br/600x700/95/95881/produto/94057618/059e114f7f.jpg" width="200"></td>
     <td colspan="1" align="center"><img src="https://www.baudaeletronica.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/10k.png" width="200"></td>
   </tr>
-    <th align="center"> Microcontrolador ESP32 WROVER-B </th>
-    <th align="center"> Módulo amplificador operacional de 24 bits HX711 </th>
+    <th align="center"> ESP32 DevKitC </th>
+    <th align="center"> Módulo Micro SD</th>
     <th align="center">Resistor 10k Ω</th>
   </tr>
 </thead>
