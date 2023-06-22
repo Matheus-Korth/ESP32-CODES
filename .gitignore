@@ -7,3 +7,4 @@ FreeRTOS/Task_Creation/.vscode/c_cpp_properties.json
 FreeRTOS/Task_Creation/.devcontainer/Dockerfile
 FreeRTOS/Task_Creation/Makefile
 FreeRTOS/Task_Creation/main/component.mk
+FreeRTOS/Task_Creation/build/
