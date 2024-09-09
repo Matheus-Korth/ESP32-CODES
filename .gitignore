@@ -8,3 +8,13 @@ FreeRTOS/Task_Creation/.devcontainer/Dockerfile
 FreeRTOS/Task_Creation/Makefile
 FreeRTOS/Task_Creation/main/component.mk
 FreeRTOS/Task_Creation/build/
+
+FreeRTOS/Task_Control/.devcontainer/devcontainer.json
+FreeRTOS/Task_Control/.vscode/tasks.json
+FreeRTOS/Task_Control/.vscode/settings.json
+FreeRTOS/Task_Control/.vscode/launch.json
+FreeRTOS/Task_Control/.vscode/c_cpp_properties.json
+FreeRTOS/Task_Control/.devcontainer/Dockerfile
+FreeRTOS/Task_Control/Makefile
+FreeRTOS/Task_Control/main/component.mk
+FreeRTOS/Task_Control/build/
